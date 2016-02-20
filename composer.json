@@ -1,0 +1,35 @@
+{
+    "name": "zonuexe/http",
+    "description": "HTTP constants repository",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "USAMI Kenta",
+            "email": "tadsan@zonu.me"
+        }
+    ],
+    "keywords": [
+        "microframework",
+        "webapp"
+    ],
+    "require": {
+        "zonuexe/http-accept-language": "~0.4"
+    },
+    "require-dev": {
+        "theseer/phpdox": "~0.8",
+        "phpunit/phpunit": "~4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Teto\\HTTP\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Teto\\HTTP\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
